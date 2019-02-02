@@ -14,10 +14,22 @@ nav{
 ul{
 	list-style-type: none;
 }
+li{
+	float: left;
+}
 li a{
 	text-decoration: none;
+}
+a:hover{
+
 }
 #header{
 	text-align: center;
 	margin-top: 50px;
+}
+img{
+	float: left;
+	width: 75px; 
+	height: 65px;
+	margin-top: 0;
 }
