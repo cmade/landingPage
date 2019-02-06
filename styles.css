@@ -4,16 +4,15 @@ body{
 	background-color: #588bd8;
 	color: white;
 }
-nav{
-	display: block;
+@media only screen and (max-width: 720px) {
+  body {
+    background-color: lightblue;
+  }
+  iframe{
 	width: 100%;
-	height: 50px;
-	position: fixed;
-	background-color: white;
-	top: 0;
-	left: 0;
-	border-bottom: 1px solid #eff3f9;
+  }
 }
+
 ul{
 	list-style-type: none;
 }
@@ -31,7 +30,7 @@ a:hover{
 	margin-top: 60px;
 	font-size: 25px;
 }
-img{
+#nav-img{
 	float: left;
 	width: 75px; 
 	height: 50px;
@@ -39,14 +38,19 @@ img{
 	border-bottom: 1px solid #eff3f9;
 }
 #nav-bar{
-
+	position: fixed;
+	overflow: hidden;
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	top: 0;
+	left: 0;
+	border-bottom: 1px solid #eff3f9;
 }
 .nav-link{
 
 }
-#video{
-	text-align: center;
-}
+
 form{
 	text-align: center;
 	padding-bottom: 50px;
@@ -68,4 +72,5 @@ h2{
 }
 #video{
 	padding-top: 50px;
+	text-align: center;
 }
