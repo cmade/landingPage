@@ -111,3 +111,16 @@ h3{
 p{
 	margin: 5px 5px;
 }
+footer{
+	display: inline-block;
+	background-color: lightgray;
+	height: 50px;
+	width: 720px;
+	background: rgba(204, 204, 204, 0.5);
+}
+#foot{
+	text-align: center;
+}
+#footy{
+	padding-left: 16px;
+}
