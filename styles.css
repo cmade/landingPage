@@ -124,3 +124,7 @@ footer{
 #footy{
 	padding-left: 16px;
 }
+li:nth-last-child(-n+3){
+	float: right;
+	padding-right: 100px;
+}
